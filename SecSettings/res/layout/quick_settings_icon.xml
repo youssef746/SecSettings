@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"> android:id="@+id/panel_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout android:orientation="vertical" android:id="@id/panel" android:background="@drawable/APKTOOL_DUMMY_0285" android:layout_width="@dimen/APKTOOL_DUMMY_009a" android:layout_height="@dimen/APKTOOL_DUMMY_009b">
+        <ImageView android:layout_gravity="top|center" android:id="@id/panel_icon" android:layout_width="@dimen/APKTOOL_DUMMY_009c" android:layout_height="@dimen/APKTOOL_DUMMY_009d" android:layout_marginTop="@dimen/APKTOOL_DUMMY_009e" />
+        <TextView android:textSize="@dimen/APKTOOL_DUMMY_00a1" android:textColor="@color/action_bar_button_text_color" android:gravity="center" android:layout_gravity="top|center" android:id="@id/panel_text" android:background="@drawable/zzz_null" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMY_009f" android:layout_marginTop="@dimen/APKTOOL_DUMMY_00a0" android:lineSpacingExtra="@dimen/APKTOOL_DUMMY_00a2" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/panel_border" android:background="@drawable/APKTOOL_DUMMY_0287" android:layout_width="@dimen/APKTOOL_DUMMY_009a" android:layout_height="@dimen/APKTOOL_DUMMY_009b" android:alpha="0.0" />
+</FrameLayout>

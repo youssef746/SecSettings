@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/APKTOOL_DUMMY_009a" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/panel_bar" android:layout_width="@dimen/APKTOOL_DUMMY_00a3" android:layout_height="@dimen/APKTOOL_DUMMY_009b" android:src="@drawable/APKTOOL_DUMMY_0284" android:scaleType="center" android:alpha="0.0" />
+        <View android:id="@id/panel_fake" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMY_009b" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
